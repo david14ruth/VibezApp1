@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "30797704494",
+    "project_id": "vibezapp2-7d906",
+    "storage_bucket": "vibezapp2-7d906.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:30797704494:android:ad3697003c2d22742b9ebf",
+        "android_client_info": {
+          "package_name": "com.example.vibezapp10"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "30797704494-elnrl08gq99esbormkhrej938pvqjmhk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.vibezapp10",
+            "certificate_hash": "744d6e1575efce213937d0786c3702920f4ebd4f"
+          }
+        },
+        {
+          "client_id": "30797704494-6bb7qhig6qui9kjlaoi55cipov7ifv97.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7NPS9PtcFJLyNamvbT-5yhbr-yPQ5RaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "30797704494-6bb7qhig6qui9kjlaoi55cipov7ifv97.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

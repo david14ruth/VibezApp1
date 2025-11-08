@@ -1,0 +1,61 @@
+name: Android Instrumentation Tests
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [ "main", "dev" ]
+
+jobs:
+  android-tests:
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        api: [30, 31]           # You can add 33 or 34 later
+        target: [google_apis]   # 'default' if you don't need Play Services
+        arch: [x86_64]
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Cache Gradle dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.gradle/caches
+            ~/.gradle/wrapper
+          key: ${{ runner.os }}-gradle-${{ hashFiles('**/*.gradle*', '**/gradle-wrapper.properties') }}
+          restore-keys: |
+            ${{ runner.os }}-gradle-
+
+      - name: Make gradlew executable
+        run: chmod +x ./gradlew
+
+      - name: Build Debug APK
+        run: ./gradlew assembleDebug --no-daemon --console=plain
+
+      - name: Set up Android Emulator
+        uses: reactivecircus/android-emulator-runner@v2
+        with:
+          api-level: ${{ matrix.api }}
+          target: ${{ matrix.target }}
+          arch: ${{ matrix.arch }}
+          emulator-options: "-gpu swiftshader_indirect -no-window -no-snapshot -noaudio"
+          force-avd-creation: true
+          disable-animations: true
+          script: ./gradlew connectedDebugAndroidTest --no-daemon --console=plain
+
+      - name: Upload Instrumentation Test Results
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: instrumentation-results-${{ matrix.api }}
+          path: |
+            app/build/reports/androidTests
+            app/build/outputs/androidTest-results

@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VibezApp1.0</string>
+    <!-- Navigation -->
+    <string name="nav_home">Tuis</string>
+    <string name="nav_search">Soek</string>
+    <string name="nav_live">Regstreeks</string>
+    <string name="nav_library">Biblioteek</string>
+    <string name="nav_profile">Profiel</string>
+
+    <!-- Authentication -->
+    <string name="sign_in">Teken in</string>
+    <string name="sign_up">Teken aan</string>
+    <string name="email">E-pos</string>
+    <string name="password">Wagwoord</string>
+    <string name="forgot_password">Wagwoord vergeet?</string>
+    <string name="login">Teken in</string>
+    <string name="or">of</string>
+    <string name="sign_in_with_apple">Teken in met Apple</string>
+    <string name="sign_in_with_google">Teken in met Google</string>
+    <string name="dont_have_account">Het jy nie \'n rekening nie</string>
+
+    <string name="confirm_password">Bevestig Wagwoord</string>
+    <string name="back_to_login">Terug na Teken In</string>
+
+    <string name="dashboard">Dashboard</string> <!-- Dashboard is commonly used in Afrikaans too -->
+    <string name="welcome">Welkom</string>
+    <string name="featured_songs">Uitgeligte Liedjies</string>
+    <string name="music_streaming">Musiek Stroom</string>
+
+
+    <!-- Music Player -->
+    <string name="play">Speel</string>
+    <string name="pause">Pouse</string>
+    <string name="next">Volgende</string>
+    <string name="previous">Vorige</string>
+    <string name="shuffle">Willekeurig</string>
+    <string name="repeat">Herhaal</string>
+    <string name="lyrics">Lirieke</string>
+    <string name="add_to_favorites">Voeg by gunstelinge</string>
+    <string name="remove_from_favorites">Verwyder van gunstelinge</string>
+
+    <!-- Search -->
+    <string name="search_hint">Soek liedjies, kunstenaars, albums...</string>
+    <string name="recent_searches">Onlangse soektogte</string>
+    <string name="clear_all">Vee alles uit</string>
+    <string name="no_results_found">Geen resultate gevind nie</string>
+    <string name="try_different_search">Probeer iets anders soek</string>
+    <string name="browse_all">Blaai alles deur</string>
+
+    <!-- Genres -->
+    <string name="genre_icon">🎵</string>
+    <string name="hip_hop">Hip Hop</string>
+    <string name="afrobeat">Afrobeat</string>
+    <string name="gospel">Gospel</string>
+    <string name="pop">Pop</string>
+    <string name="rock">Rock</string>
+    <string name="jazz">Jazz</string>
+    <string name="classical">Klassiek</string>
+    <string name="country">Country</string>
+    <string name="electronic">Elektronies</string>
+    <string name="reggae">Reggae</string>
+
+    <!-- Library -->
+    <string name="your_library">Jou Biblioteek</string>
+    <string name="recently_played">Onlangs gespeel</string>
+    <string name="create_playlist">Skep speellys</string>
+    <string name="my_playlists">My Speellyste</string>
+    <string name="downloads">Aflaaie</string>
+    <string name="liked_songs">Gunstelinge</string>
+    <string name="following_artists">Volgende kunstenaars</string>
+    <string name="recently_created">Onlangs geskep</string>
+
+    <!-- Profile -->
+    <string name="profile">Profiel</string>
+    <string name="edit_profile">Wysig profiel</string>
+    <string name="premium_subscription">Premie-intekening</string>
+    <string name="privacy_settings">Privaatheidsinstellings</string>
+    <string name="storage_data">Stoor en Data</string>
+    <string name="help_support">Hulp en Ondersteuning</string>
+    <string name="about">Oor</string>
+    <string name="logout">Teken uit</string>
+    <string name="this_week">Hierdie week</string>
+    <string name="favorites">Gunstelinge</string>
+    <string name="playlists">Speellyste</string>
+
+    <!-- Downloads -->
+    <string name="total_downloads">Totale aflaaie</string>
+    <string name="storage_used">Stoor gebruik</string>
+    <string name="songs">Liedjies</string>
+    <string name="no_downloads_yet">Geen aflaaie nog nie</string>
+    <string name="download_songs_offline">Laai liedjies af om aanlyn te luister</string>
+
+    <!-- Favorites -->
+    <string name="no_liked_songs">Geen gunsteling liedjies nog nie</string>
+    <string name="tap_heart_save">Tik op die hart-ikoon om jou gunstelinge te stoor</string>
+    <string name="recently_added">Onlangs bygevoeg</string>
+
+    <!-- Playlists -->
+    <string name="my_playlists_title">My Speellyste</string>
+    <string name="no_playlists_yet">Geen speellyste nog nie</string>
+    <string name="create_first_playlist">Skep jou eerste speellys om te begin</string>
+    <string name="playlist_name">Speellys Naam</string>
+    <string name="playlist_description">Beskrywing (opsioneel)</string>
+    <string name="create">Skep</string>
+    <string name="cancel">Kanselleer</string>
+
+    <!-- Artist Profile -->
+    <string name="follow">Volg</string>
+    <string name="following">Volgend</string>
+    <string name="unfollow">Hou op volg</string>
+    <string name="followers">volgers</string>
+    <string name="popular">Populêr</string>
+    <string name="albums">Albums</string>
+    <string name="about_artist">Oor</string>
+
+    <!-- Lyrics -->
+    <string name="lyrics_not_available">Lirieke nie beskikbaar nie</string>
+    <string name="couldnt_find_lyrics">Ons kon nie lirieke vir hierdie liedjie vind nie</string>
+    <string name="retry">Probeer weer</string>
+    <string name="loading_lyrics">Laai lirieke...</string>
+
+    <!-- Live -->
+    <string name="live">Regstreeks</string>
+    <string name="live_music">Regstreekse musiek</string>
+    <string name="now_playing">Nou speel</string>
+    <string name="live_streams">Regstreekse strome</string>
+
+    <!-- General -->
+    <string name="loading">Laai...</string>
+    <string name="error">Fout</string>
+    <string name="try_again">Probeer weer</string>
+    <string name="ok">OK</string>
+    <string name="share">Deel</string>
+    <string name="view_all">Sien alles</string>
+    <string name="more">Meer</string>
+    <string name="less">Minder</string>
+    <string name="play_all">Speel alles</string>
+    <string name="add_to_playlist">Voeg by speellys</string>
+    <string name="remove_from_playlist">Verwyder van speellys</string>
+    <string name="download">Laai af</string>
+    <string name="delete">Verwyder</string>
+    <string name="rename">Hernoem</string>
+
+    <string name="default_web_client_id">30797704494-elnrl08gq99esbormkhrej938pvqjmhk.apps.googleusercontent.com</string>
+
+    <!-- Notifications -->
+    <string name="download_complete">Aflaai voltooi</string>
+    <string name="added_to_favorites">Bygevoeg by gunstelinge</string>
+    <string name="removed_from_favorites">Verwyder van gunstelinge</string>
+    <string name="playlist_created">Speellys geskep</string>
+    <string name="playlist_deleted">Speellys verwyder</string>
+
+    <!-- Offline Mode -->
+    <string name="offline_mode">Aflynmodus</string>
+    <string name="no_internet_connection">Geen internetverbinding nie</string>
+    <string name="playing_offline">Speel aflyninhoud</string>
+    <string name="hello_blank_fragment">Hallo leë fragment</string>
+
+    <string-array name="themes">
+        <item>Lig</item>
+        <item>Donker</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>Engels</item>
+        <item>Spaans</item>
+        <item>Zulu</item>
+    </string-array>
+
+</resources>

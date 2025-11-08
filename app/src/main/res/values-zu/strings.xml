@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">VibezApp1.0</string>
+    <!-- Navigation -->
+    <string name="nav_home">Ikhaya</string>
+    <string name="nav_search">Sesha</string>
+    <string name="nav_live">Bukhoma</string>
+    <string name="nav_library">Ithala</string>
+    <string name="nav_profile">Iphrofayili</string>
+
+    <!-- Authentication -->
+    <string name="sign_in">Ngena</string>
+    <string name="sign_up">Bhalisa</string>
+    <string name="email">I-imeyili</string>
+    <string name="password">Iphasiwedi</string>
+    <string name="forgot_password">Ukhohlwe iphasiwedi?</string>
+    <string name="login">Ngena</string>
+    <string name="or">noma</string>
+    <string name="sign_in_with_apple">Ngena nge-Apple</string>
+    <string name="sign_in_with_google">Ngena nge-Google</string>
+    <string name="dont_have_account">Awunayo i-akhawunti</string>
+
+    <!-- Music Player -->
+    <string name="play">Dlala</string>
+    <string name="pause">Misa</string>
+    <string name="next">Okulandelayo</string>
+    <string name="previous">Okwedlule</string>
+    <string name="shuffle">Hlanganisa</string>
+    <string name="repeat">Phinda</string>
+    <string name="lyrics">Izisho</string>
+    <string name="add_to_favorites">Engeza ezikhethiweyo</string>
+    <string name="remove_from_favorites">Susa ezikhethiweyo</string>
+
+    <!-- Search -->
+    <string name="search_hint">Sesha izingoma, abaculi, ama-albhamu...</string>
+    <string name="recent_searches">Ukusesha kwakamuva</string>
+    <string name="clear_all">Sula konke</string>
+    <string name="no_results_found">Azikho imiphumela etholakele</string>
+    <string name="try_different_search">Zama ukusesha okuthile okunye</string>
+    <string name="browse_all">Buka konke</string>
+
+    <!-- Genres -->
+    <string name="genre_icon">🎵</string>
+    <string name="hip_hop">Hip Hop</string>
+    <string name="afrobeat">Afrobeat</string>
+    <string name="gospel">Ivangeli</string>
+    <string name="pop">Pop</string>
+    <string name="rock">Rock</string>
+    <string name="jazz">Jazz</string>
+    <string name="classical">Okujwayelekile</string>
+    <string name="country">Izwe</string>
+    <string name="electronic">Ugesi</string>
+    <string name="reggae">Reggae</string>
+
+    <!-- Library -->
+    <string name="your_library">Ithala Lakho</string>
+    <string name="recently_played">Idlalwe muva</string>
+    <string name="create_playlist">Dala uhlu lokudlalayo</string>
+    <string name="my_playlists">Uhlu Lwami Lokudlalayo</string>
+    <string name="downloads">Landa</string>
+    <string name="liked_songs">Othandayo</string>
+    <string name="following_artists">Abaculi abalandelwayo</string>
+    <string name="recently_created">Okudaliwe muva</string>
+
+    <!-- Profile -->
+    <string name="profile">Iphrofayili</string>
+    <string name="edit_profile">Hlela iphrofayili</string>
+    <string name="premium_subscription">Ubhaliso Lwe-premium</string>
+    <string name="privacy_settings">Izilungiselelo Zobumfihlo</string>
+    <string name="storage_data">Isitoreji ne datha</string>
+    <string name="help_support">Usizo no Ukusekela</string>
+    <string name="about">Mayelana</string>
+    <string name="logout">Phuma</string>
+    <string name="this_week">Leli sonto</string>
+    <string name="favorites">Ezithandwayo</string>
+    <string name="playlists">Uhlu Lokudlalayo</string>
+
+    <string name="confirm_password">Qinisekisa Iphasiwedi</string>
+    <string name="back_to_login">Buyela Ekungeni</string>
+
+    <string name="dashboard">I-Dashboard</string>
+    <string name="welcome">Siyakwamukela</string>
+    <string name="featured_songs">Ingoma Evezwayo</string>
+    <string name="music_streaming">Ukusakazwa Komculo</string>
+
+    <!-- Downloads -->
+    <string name="total_downloads">Izinhlamvu Ezilandiwe</string>
+    <string name="storage_used">Isitoreji Esisetshenzisiwe</string>
+    <string name="songs">Izingoma</string>
+    <string name="no_downloads_yet">Azikho ezilandwe okwamanje</string>
+    <string name="download_songs_offline">Landa izingoma ukuze ulalele ngaphandle kwe-inthanethi</string>
+
+    <!-- Favorites -->
+    <string name="no_liked_songs">Azikho izingoma ozithandayo okwamanje</string>
+    <string name="tap_heart_save">Thepha inhliziyo ukuze ugcine ozithandayo</string>
+    <string name="recently_added">Okungeziwe muva</string>
+
+    <!-- Playlists -->
+    <string name="my_playlists_title">Uhlu Lwami Lokudlalayo</string>
+    <string name="no_playlists_yet">Azikho izinhlu zokudlalayo okwamanje</string>
+    <string name="create_first_playlist">Dala uhlu lwakho lokudlalayo lokuqala ukuze uqale</string>
+    <string name="playlist_name">Igama Lohlu Lokudlalayo</string>
+    <string name="playlist_description">Incazelo (ngokuzithandela)</string>
+    <string name="create">Dala</string>
+    <string name="cancel">Khansela</string>
+
+    <!-- Artist Profile -->
+    <string name="follow">Landela</string>
+    <string name="following">Uyalandela</string>
+    <string name="unfollow">Misa ukulandela</string>
+    <string name="followers">abalandeli</string>
+    <string name="popular">Edumile</string>
+    <string name="albums">Ama-albhamu</string>
+    <string name="about_artist">Mayelana</string>
+
+    <!-- Lyrics -->
+    <string name="lyrics_not_available">Izisho azitholakali</string>
+    <string name="couldnt_find_lyrics">Asikwazanga ukuthola izisho zale ngoma</string>
+    <string name="retry">Phinda uzame</string>
+    <string name="loading_lyrics">Ukulayisha izisho...</string>
+
+    <!-- Live -->
+    <string name="live">Bukhoma</string>
+    <string name="live_music">Umculo bukhoma</string>
+    <string name="now_playing">Kudlalwa manje</string>
+    <string name="live_streams">Izinsiza bukhoma</string>
+
+    <!-- General -->
+    <string name="loading">Kulayisha...</string>
+    <string name="error">Iphutha</string>
+    <string name="try_again">Zama futhi</string>
+    <string name="ok">Kulungile</string>
+    <string name="share">Yabelana</string>
+    <string name="view_all">Buka konke</string>
+    <string name="more">Okuningi</string>
+    <string name="less">Okuncane</string>
+    <string name="play_all">Dlala konke</string>
+    <string name="add_to_playlist">Engeza ohlwini lokudlalayo</string>
+    <string name="remove_from_playlist">Susa ohlwini lokudlalayo</string>
+    <string name="download">Landa</string>
+    <string name="delete">Susa</string>
+    <string name="rename">Shintsha igama</string>
+
+    <string name="default_web_client_id">30797704494-elnrl08gq99esbormkhrej938pvqjmhk.apps.googleusercontent.com</string>
+
+    <!-- Notifications -->
+    <string name="download_complete">Ukulanda kuqediwe</string>
+    <string name="added_to_favorites">Kungeziwe ozithandayo</string>
+    <string name="removed_from_favorites">Kususwe ezithandwayo</string>
+    <string name="playlist_created">Uhlu lokudlalayo ludalwe</string>
+    <string name="playlist_deleted">Uhlu lokudlalayo lususiwe</string>
+
+    <!-- Offline Mode -->
+    <string name="offline_mode">Imodi engenaxhumano</string>
+    <string name="no_internet_connection">Ayikho uxhumano lwe-inthanethi</string>
+    <string name="playing_offline">Udlala okuqukethwe okungenaxhumano</string>
+    <string name="hello_blank_fragment">Sawubona ingxenye engenalutho</string>
+
+    <string-array name="themes">
+        <item>Okukhanyayo</item>
+        <item>Okumnyama</item>
+    </string-array>
+
+    <string-array name="languages">
+        <item>IsiNgisi</item>
+        <item>IAfrikaans</item>
+        <item>IsiZulu</item>
+    </string-array>
+
+</resources>
